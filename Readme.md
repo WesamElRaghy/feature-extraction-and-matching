@@ -1,14 +1,22 @@
-# Object Detection using SIFT Feature Matching
+# Object Detection using ORB Feature Matching
 
-This project implements object detection in images using SIFT (Scale-Invariant Feature Transform) feature matching with OpenCV. The code can detect a query object within a target image and draw a bounding box around the detected object.
+This project implements object detection in both static images and videos using ORB (Oriented FAST and Rotated BRIEF) feature matching with OpenCV. The system can detect objects in static images and track them in real-time video streams.
 
 ## Features
 
-- SIFT feature detection and matching
+### Static Image Detection
+- ORB feature detection and matching
 - Homography-based object localization
 - Visual feedback with matched features
 - Error handling and validation
 - Support for various image formats
+
+### Video Object Tracking
+- Real-time object tracking in video streams
+- FPS (Frames Per Second) calculation and display
+- Live visualization of matching points
+- Support for both recorded videos and webcam input
+- Efficient feature matching and tracking
 
 ## Requirements
 
